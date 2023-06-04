@@ -14,7 +14,7 @@ and the Flutter guide for
 
 
 ## Features
-      ## dependencies:
+## dependencies:
         
 
 ## Getting started
