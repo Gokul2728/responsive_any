@@ -12,10 +12,7 @@ and the Flutter guide for
 -->
 
 
-
-## Features
-## dependencies:
-        
+![Screenshot 1](assets/images/Responsive.png)
 
 ## Getting started
 
