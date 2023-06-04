@@ -1,7 +1,7 @@
 name: responsive_any
-description: A new Flutter package project.
+description: All in One.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Gokul2728/responsive_any
 
 environment:
   sdk: '>=3.0.2 <4.0.0'

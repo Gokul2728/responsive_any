@@ -1,20 +1,20 @@
 import 'package:flutter/widgets.dart';
 
-class Responsive extends StatefulWidget {
-   const Responsive({super.key, 
+class ResponsiveAny extends StatefulWidget {
+   const ResponsiveAny({super.key,
    this.android, this.tablet,
     this.desktop});
 final Widget? android;
 final Widget? tablet;
 final Widget? desktop;
   @override
-  State<Responsive> createState() => _ResponsiveState();
+  State<ResponsiveAny> createState() => _ResponsiveAnyState();
 }
 
-class _ResponsiveState extends State<Responsive> {
+class _ResponsiveAnyState extends State<ResponsiveAny> {
   @override
   Widget build(BuildContext context) {
-    // final width =MediaQuery.of(context).size.width;
+
     return LayoutBuilder(builder: (context, constraints) {
       
        if(constraints.maxWidth < 620) {
