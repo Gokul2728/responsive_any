@@ -12,7 +12,7 @@ and the Flutter guide for
 -->
 
 
-![Screenshot 1](assets/images/Responsive.png)
+<img alt="Screenshot" height="260" src="assets/images/Responsive.png" width="600"/>
 
 ## Created by  Mr.Gokul
 
