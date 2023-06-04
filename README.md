@@ -14,17 +14,18 @@ and the Flutter guide for
 
 
 ## Features
-
-
+        ## dependencies:
+        
 
 ## Getting started
-
-.
 
 ## Usage
 
 
 ```dart
+import 'package:flutter/material.dart';
+import 'package:responsive_any/responsive_any.dart';
+
 class ResponsiveAny extends StatefulWidget {
   const ResponsiveAny({Key? key}) : super(key: key);
 
@@ -37,7 +38,7 @@ class _ResponsiveAnyState extends State<ResponsiveAny> {
   Widget build(BuildContext context) {
     return ResponsiveAny(
       android: Scaffold(),
-        table:Scaffold(),
+        tablet:Scaffold(),
       desktop:Scaffold()
     );
   }

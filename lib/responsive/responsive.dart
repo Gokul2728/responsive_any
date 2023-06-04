@@ -21,7 +21,7 @@ class _ResponsiveAnyState extends State<ResponsiveAny> {
         return widget.android!;
        }else if(constraints.maxWidth < 900) {
         return widget.tablet!;
-       }else if(constraints.maxWidth < 1200) {
+       }else if(constraints.maxWidth > 920) {
         return widget.desktop!;
        }else{
         return const Center(
